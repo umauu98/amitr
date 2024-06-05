@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./index2.html" autocomplete="on" method="get">
+        <fieldset>
+            <legend>Personalia:</legend>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" required ><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" required><br>
+            <h3>Gender</h3>
+       <input type="radio" id="Male" name="fav_language" value="Male">
+            <label for="Male">Male</label><br>
+            <input type="radio" id="Female" name="fav_language" value="Female">
+            <label for="Female">Female</label><br>
+            <input type="radio" id="Other" name="fav_language" value="Other">
+            <label for="Other">Other</label><br>
+            <label for="cars">Choose a car:</label>
+            <select id="cars" name="cars">
+              <option value="swift">swift</option>
+              <option value="OD">OD</option>
+              <option value="flat">Fiat</option>
+              <option value="audi">Audi</option>
+            </select>
+            <br>
+            <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday" required> <br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+          </fieldset>
+    </form>
+
+</body>
+</html>
